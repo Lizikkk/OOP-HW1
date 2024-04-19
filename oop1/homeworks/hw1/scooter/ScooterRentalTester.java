@@ -70,7 +70,7 @@ public class ScooterRentalTester {
         // Wait for one hour 
         try {
             System.out.println("Waiting for one hour...");
-            TimeUnit.HOURS.sleep(0);
+            TimeUnit.HOURS.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
